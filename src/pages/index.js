@@ -6,10 +6,10 @@ const IndexPage = () => {
     <div className="links-container">
       <p>
         Matthew Alexander{" "}
-        <a href="https://www.linkedin.com/in/mattalxndr/">works</a>{" "}
-        on{" "}
-        <a href="https://stackexchange.com/users/133538/mattalxndr">software</a>{" "}
-        <a href="https://github.com/mattalxndr">projects</a>{" "}
+        <a href="https://www.linkedin.com/in/mattalxndr/" title="LinkedIn Profile">works</a>{" "}
+        on {" "}
+        <a href="https://stackexchange.com/users/133538/mattalxndr" title="StackExchange Profile">software</a>{" "}
+        <a href="https://github.com/mattalxndr" title="GitHub Profile">projects</a>{" "}
         from his home in Austin, Texas.
       </p>
     </div>
