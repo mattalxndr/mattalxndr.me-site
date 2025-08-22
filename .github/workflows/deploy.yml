@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm install
-      - run: gatsby build
-      - run: wrangler deploy
+      - run: ./node_modules/.bin/gatsby build
+      - run: ./node_modules/.bin/wrangler deploy
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
